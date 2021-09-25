@@ -1,0 +1,23 @@
+{
+  "name": "node-express-boilerplate",
+  "description": "Node 14 + express 4 Boilerplate",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "jest --watchAll",
+    "test:init": "jest --init",
+    "test:coverage": "jest --coverage --watchAll"
+  },
+  "repository": "git@github.com:laisfrigerio/node-express-boilerplate.git",
+  "author": "Lais Frigério",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "supertest": "^6.1.6"
+  }
+}
